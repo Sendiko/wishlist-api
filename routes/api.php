@@ -32,8 +32,8 @@ Route::post('wishlist/tambah', [WishlistController::class, 'store']);
 Route::put('wishlist/{id}', [WishlistController::class, 'update']);
 Route::delete('wishlist/{id}', [WishlistController::class, 'destroy']);
 
-Route::get('user', [UserController::class, 'index']);
-Route::get('user/{id}', [UserController::class, 'show']);
-Route::post('user/tambah', [UserController::class, 'store']);
-Route::put('user/{id}', [UserController::class, 'update']);
-Route::delete('user/{id}', [UserController::class, 'destroy']);
+// Route::get('user', [UserController::class, 'index']);
+// Route::get('user/{id}', [UserController::class, 'show']);
+// Route::post('user/tambah', [UserController::class, 'store']);
+// Route::put('user/{id}', [UserController::class, 'update']);
+// Route::delete('user/{id}', [UserController::class, 'destroy']);
